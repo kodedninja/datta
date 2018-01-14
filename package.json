@@ -1,6 +1,6 @@
 {
   "name": "datta",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "A readable plain text data structure",
   "main": "index.js",
   "scripts": {

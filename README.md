@@ -8,7 +8,7 @@ npm i datta
 
 ## Usage
 ```javascript
-var datta = require('..')
+var datta = require('datta')
 
 var str = datta.parse(`
 ID  NAME         EMAIL
@@ -36,3 +36,10 @@ Accepts a single ```object```. Returns a ```string```.
 
 ### ```parse(str)```
 Accepts a single ```string```. Returns an ```object```.
+
+## Structure
+The header contains the names of the fields that are separated by **spaces**. The spaces define the max length of the value.
+
+The ```---``` separates the header from the content.
+
+The content forms columns (every field begins where its name is in the header). The last column is basically doesn't have defined length.
