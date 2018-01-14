@@ -1,10 +1,9 @@
 const datta = require('.')
 
-var str = `
-ID  NAME           EMAIL
+var str = `ID  NAME         EMAIL
 ---
-000 RANDOM JOE     joe@mail.com
-001 RANDOM JERRY   jerry@mail.com
+000 RANDOM JOE   joe@mail.com
+001 RANDOM JERRY jerry@mail.com
 `
 
 var obj = [ { ID: '000', NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' },
