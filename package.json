@@ -1,12 +1,8 @@
 {
   "name": "datta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A readable plain text data structure",
   "main": "index.js",
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
   "scripts": {
     "test": "jest"
   },
