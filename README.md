@@ -14,6 +14,7 @@ var str = datta.parse(`
 ID  NAME         EMAIL
 ---
 000 RANDOM JOE   joe@mail.com
+# some comment
 001 RANDOM JERRY jerry@mail.com
 `)
 
@@ -43,3 +44,5 @@ The header contains the names of the fields that are separated by **spaces**. Th
 The ```---``` separates the header from the content.
 
 The content forms columns (every field begins where its name is in the header). The last column is basically doesn't have defined length.
+
+Lines beginning with ```#``` are comments.
