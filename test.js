@@ -6,8 +6,11 @@ var str = `ID  NAME         EMAIL
 001 RANDOM JERRY jerry@mail.com
 `
 
-var str_c = `ID  NAME         EMAIL
+var str_c = `#
+ID  NAME         EMAIL
+# coommment 	.... super comment
 ---
+# another comment
 000 RANDOM JOE   joe@mail.com
 # some comment
 001 RANDOM JERRY jerry@mail.com
