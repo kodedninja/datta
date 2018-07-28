@@ -19,12 +19,18 @@ ID  NAME         EMAIL
 var obj = [ { ID: 0, NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' },
   			{ ID: 1, NAME: 'RANDOM JERRY', EMAIL: 'jerry@mail.com' } ]
 
+var obj_limit = [ { ID: 0, NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' } ]
+
 test('parses the example', () => {
 	expect(datta.parse(str)).toEqual(obj)
 })
 
 test('parses comments', () => {
 	expect(datta.parse(str_c)).toEqual(obj)
+})
+
+test('parses with limit', () => {
+	expect(datta.parse(str, 1)).toEqual(obj_limit)
 })
 
 test('stringifies the example', () => {
