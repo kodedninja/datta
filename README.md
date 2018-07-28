@@ -19,8 +19,8 @@ ID  NAME         EMAIL
 `)
 
 var obj = datta.stringify([
-	{ ID: '000', NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' },
-	{ ID: '001', NAME: 'RANDOM JERRY', EMAIL: 'jerry@mail.com' }
+	{ ID: 0, NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' },
+	{ ID: 1, NAME: 'RANDOM JERRY', EMAIL: 'jerry@mail.com' }
 ])
 
 ```
