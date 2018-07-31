@@ -3,7 +3,7 @@ const datta = require('.')
 var str = `ID NAME         EMAIL
 ---
 0  RANDOM JOE   joe@mail.com
-1  RANDOM JERRY jerry@mail.com
+1  RANDOM JERRY
 `
 
 var str_c = `#
@@ -13,11 +13,11 @@ ID  NAME         EMAIL
 # another comment
 000 RANDOM JOE   joe@mail.com
 # some comment
-001 RANDOM JERRY jerry@mail.com
+001 RANDOM JERRY
 `
 
 var obj = [ { ID: 0, NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' },
-  			{ ID: 1, NAME: 'RANDOM JERRY', EMAIL: 'jerry@mail.com' } ]
+  			{ ID: 1, NAME: 'RANDOM JERRY', EMAIL: '' } ]
 
 var obj_limit = [ { ID: 0, NAME: 'RANDOM JOE', EMAIL: 'joe@mail.com' } ]
 
